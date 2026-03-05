@@ -1,0 +1,47 @@
+/*FirstYear.html Formatting*/
+.Header {
+    background-color: #E9D3D7;
+    height: 100px;
+}
+.Introduction{
+    li {
+        display: flex;
+        margin: 7%;
+        justify-content: center;
+        align-items: center;
+        border: black;
+        font-size: 30px;
+    }
+}
+.Main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+.box{
+    display: flex;
+    background-color: #912338;
+    width: 474px;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+.Main a:link{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.Main a:visited{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.Main a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.Main a:active{
+    color: antiquewhite;
+    text-decoration: none;
+}
