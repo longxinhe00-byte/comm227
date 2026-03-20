@@ -1,0 +1,53 @@
+.nav_links{
+    background-color: #912338;
+    height: 2%;
+}
+
+.Main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+}
+.extra{
+    display: flex;
+    background-color: #E9D3D7;
+    width: 307px;
+    height: 228px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.Main a:link{
+    color: black;
+    text-decoration: none;
+}
+.Main a:visited{
+    color: black;
+    text-decoration: none;
+}
+.Main a:hover{
+    color: black;
+    text-decoration: none;
+}
+.Main a:active{
+    color: black;
+    text-decoration: none;
+}
+.nav_links a:link{
+    color: black;
+    text-decoration: none;
+}
+.nav_links a:visited{
+    color: black;
+    text-decoration: none;
+}
+.nav_links a:hover{
+    color: black;
+    text-decoration: none;
+}
+.nav_links a:active{
+    color: black;
+    text-decoration: none;
+}
