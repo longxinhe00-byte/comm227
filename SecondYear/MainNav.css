@@ -1,0 +1,57 @@
+nav{
+    background-color: #912338;
+    height: 70px;
+}
+
+.Main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+}
+.extra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #E9D3D7;
+    width: 307px;
+    height: 228px;
+    padding: 1rem;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.Main a:link{
+    color: black;
+    text-decoration: none;
+}
+.Main a:visited{
+    color: black;
+    text-decoration: none;
+}
+.Main a:hover{
+    color: black;
+    text-decoration: none;
+}
+.Main a:active{
+    color: black;
+    text-decoration: none;
+}
+.nav_links a:link{
+    color: black;
+    text-decoration: none;
+}
+.nav_links a:visited{
+    color: black;
+    text-decoration: none;
+}
+.nav_links a:hover{
+    color: black;
+    text-decoration: none;
+}
+.nav_links a:active{
+    color: black;
+    text-decoration: none;
+}
