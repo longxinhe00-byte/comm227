@@ -1,6 +1,6 @@
-.nav_links{
+nav{
     background-color: #912338;
-    height: 2%;
+    height: 70px;
 }
 
 .Main{
@@ -12,12 +12,16 @@
 }
 .extra{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: #E9D3D7;
     width: 307px;
     height: 228px;
-    justify-content: center;
-    align-items: center;
+    padding: 1rem;
     font-size: 20px;
+    box-sizing: border-box;
 }
 .Main a:link{
     color: black;
